@@ -1,4 +1,4 @@
-Files Description:
+**Files Description**:
 
 main.cpp: This file contains the main function and the user interface for the dues management system. It handles user input, authentication, and displays the dues information. It also calls other functions to update dues, check for remaining dues, and generate a certificate if all dues are cleared.
 
@@ -10,7 +10,7 @@ passwords.txt: This text file stores the student registration numbers (SRNs) and
 
 dues.txt: This text file stores the dues information for each student. It includes the SRN and the respective departments along with their due amounts.
 
-Program Flow Description:
+**Program Flow Description**:
 
 The program starts by asking the user to enter their Student Registration Number (SRN) and password for authentication.
 
@@ -24,4 +24,12 @@ If there are remaining dues, the program allows the student to clear them one by
 
 After clearing the dues for all departments, the program checks again if there are any remaining dues. If not, it generates the certificate
 
-If there are still remaining dues after trying to clear them, the program will exit, and the student needs to try again later after paying all the dues
+If there are still remaining dues after trying to clear them, the program will exit, and the student needs to try again later after paying all the dues.
+
+**PLEASE NOTE**
+The environment variable name is Nodues and the variable value is the path to the directory in which the files are saved.
+
+Contributors:
+1) [Abhirup MVNS](https://github.com/CodeMaster1901)
+2) [Adhi Nandan J](https://github.com/SlimShady1414)
+3) [Adithya S Gurikar](https://github.com/adithya-gurikar)
