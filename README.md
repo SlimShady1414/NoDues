@@ -29,6 +29,12 @@ If there are still remaining dues after trying to clear them, the program will e
 **PLEASE NOTE**
 The environment variable name is Nodues and the variable value is the path to the directory in which the files are saved.
 
+**Program execution**
+
+1) g++ -o main main.cpp Student.cpp
+
+2) ./main.exe
+
 Contributors:
 1) [Abhirup MVNS](https://github.com/CodeMaster1901)
 2) [Adhi Nandan J](https://github.com/SlimShady1414)
